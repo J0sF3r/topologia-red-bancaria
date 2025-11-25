@@ -37,7 +37,7 @@ const TopologiaRed = () => {
   });
 
   const branches = [
-    { id: 0, name: 'Sede Central', x: 50, y: 50, network: '10.0.0.0/16', isHub: true, employees: 150, services: ['Core Bancario', 'Data Center', 'NOC'] },
+    { id: 0, name: 'Sede Central', x: 58, y: 50, network: '10.0.0.0/16', isHub: true, employees: 150, services: ['Core Bancario', 'Data Center', 'NOC'] },
     { id: 17, name: 'Petén', x: 50, y: 8, network: '10.17.0.0/16', employees: 12, services: ['Cajas', 'Plataforma'] },
     { id: 16, name: 'Alta Verapaz', x: 50, y: 20, network: '10.16.0.0/16', employees: 15, services: ['Cajas', 'Plataforma', 'ATM'] },
     { id: 15, name: 'Baja Verapaz', x: 38, y: 28, network: '10.15.0.0/16', employees: 10, services: ['Cajas', 'Plataforma'] },
@@ -310,9 +310,11 @@ const TopologiaRed = () => {
             <div>
               <h1 className="text-3xl font-bold text-white flex items-center gap-3">
                 <Server className="text-blue-400" size={32} />
-                Banco Cuscatlán - Infraestructura de TI
+                Banco Cuscatlán - Infraestructura de TI - 
               </h1>
-              <p className="text-slate-400 mt-2">Topología Hub-and-Spoke | 24 Sucursales + Sede Central</p>
+              <p className="text-slate-400 mt-2">Topología Hub-and-Spoke | 24 Sucursales + Sede Central</p><br />
+               <p className="text-slate-400 mt-2">Seminario Privados - Administración IT</p><br />
+               <p className="text-slate-400 mt-2">UMG - Ingeniería en Sistemas</p><br />
             </div>
             <div className="flex gap-3">
               <button
