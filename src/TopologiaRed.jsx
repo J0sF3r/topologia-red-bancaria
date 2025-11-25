@@ -52,7 +52,7 @@ const TopologiaRed = () => {
     { id: 3, name: 'Chimaltenango', x: 32, y: 55, network: '10.3.0.0/16', employees: 16, services: ['Cajas', 'Plataforma', 'ATM'] },
     { id: 2, name: 'Sacatepéquez', x: 40, y: 62, network: '10.2.0.0/16', employees: 14, services: ['Cajas', 'Plataforma'] },
     { id: 1, name: 'Capital 1', x: 58, y: 58, network: '10.1.0.0/16', employees: 30, services: ['Cajas', 'Plataforma', 'ATM', 'Bóveda'] },
-    { id: 101, name: 'Capital 2', x: 62, y: 40, network: '10.101.0.0/16', employees: 28, services: ['Cajas', 'Plataforma', 'ATM'] },
+    { id: 101, name: 'Capital 2', x: 62, y: 30, network: '10.101.0.0/16', employees: 28, services: ['Cajas', 'Plataforma', 'ATM'] },
     { id: 102, name: 'Capital 3', x: 42, y: 42, network: '10.102.0.0/16', employees: 26, services: ['Cajas', 'Plataforma', 'ATM'] },
     { id: 5, name: 'Escuintla', x: 35, y: 78, network: '10.5.0.0/16', employees: 18, services: ['Cajas', 'Plataforma', 'ATM'] },
     { id: 6, name: 'Santa Rosa', x: 50, y: 85, network: '10.6.0.0/16', employees: 13, services: ['Cajas', 'Plataforma'] },
