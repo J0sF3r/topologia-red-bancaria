@@ -37,7 +37,7 @@ const TopologiaRed = () => {
   });
 
   const branches = [
-    { id: 0, name: 'Sede Central', x: 58, y: 50, network: '10.0.0.0/16', isHub: true, employees: 150, services: ['Core Bancario', 'Data Center', 'NOC'] },
+    { id: 0, name: 'Sede Central', x: 50, y: 50, network: '10.0.0.0/16', isHub: true, employees: 150, services: ['Core Bancario', 'Data Center', 'NOC'] },
     { id: 17, name: 'Petén', x: 50, y: 8, network: '10.17.0.0/16', employees: 12, services: ['Cajas', 'Plataforma'] },
     { id: 16, name: 'Alta Verapaz', x: 50, y: 20, network: '10.16.0.0/16', employees: 15, services: ['Cajas', 'Plataforma', 'ATM'] },
     { id: 15, name: 'Baja Verapaz', x: 38, y: 28, network: '10.15.0.0/16', employees: 10, services: ['Cajas', 'Plataforma'] },
