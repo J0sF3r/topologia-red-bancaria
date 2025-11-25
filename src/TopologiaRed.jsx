@@ -38,7 +38,7 @@ const TopologiaRed = () => {
 
   const branches = [
     { id: 0, name: 'Sede Central', x: 50, y: 50, network: '10.0.0.0/16', isHub: true, employees: 150, services: ['Core Bancario', 'Data Center', 'NOC'] },
-    { id: 17, name: 'Petén', x: 50, y: 8, network: '10.17.0.0/16', employees: 12, services: ['Cajas', 'Plataforma'] },
+    { id: 17, name: 'Petén', x: 55, y: 8, network: '10.17.0.0/16', employees: 12, services: ['Cajas', 'Plataforma'] },
     { id: 16, name: 'Alta Verapaz', x: 50, y: 20, network: '10.16.0.0/16', employees: 15, services: ['Cajas', 'Plataforma', 'ATM'] },
     { id: 15, name: 'Baja Verapaz', x: 38, y: 28, network: '10.15.0.0/16', employees: 10, services: ['Cajas', 'Plataforma'] },
     { id: 14, name: 'El Quiché', x: 28, y: 30, network: '10.14.0.0/16', employees: 12, services: ['Cajas', 'Plataforma'] },
@@ -52,16 +52,16 @@ const TopologiaRed = () => {
     { id: 3, name: 'Chimaltenango', x: 32, y: 55, network: '10.3.0.0/16', employees: 16, services: ['Cajas', 'Plataforma', 'ATM'] },
     { id: 2, name: 'Sacatepéquez', x: 40, y: 62, network: '10.2.0.0/16', employees: 14, services: ['Cajas', 'Plataforma'] },
     { id: 1, name: 'Capital 1', x: 58, y: 58, network: '10.1.0.0/16', employees: 30, services: ['Cajas', 'Plataforma', 'ATM', 'Bóveda'] },
-    { id: 101, name: 'Capital 2', x: 62, y: 45, network: '10.101.0.0/16', employees: 28, services: ['Cajas', 'Plataforma', 'ATM'] },
+    { id: 101, name: 'Capital 2', x: 62, y: 40, network: '10.101.0.0/16', employees: 28, services: ['Cajas', 'Plataforma', 'ATM'] },
     { id: 102, name: 'Capital 3', x: 42, y: 42, network: '10.102.0.0/16', employees: 26, services: ['Cajas', 'Plataforma', 'ATM'] },
     { id: 5, name: 'Escuintla', x: 35, y: 78, network: '10.5.0.0/16', employees: 18, services: ['Cajas', 'Plataforma', 'ATM'] },
     { id: 6, name: 'Santa Rosa', x: 50, y: 85, network: '10.6.0.0/16', employees: 13, services: ['Cajas', 'Plataforma'] },
     { id: 22, name: 'Jutiapa', x: 65, y: 82, network: '10.22.0.0/16', employees: 12, services: ['Cajas', 'Plataforma'] },
-    { id: 4, name: 'El Progreso', x: 70, y: 40, network: '10.4.0.0/16', employees: 11, services: ['Cajas', 'Plataforma'] },
+    { id: 4, name: 'El Progreso', x: 70, y: 35, network: '10.4.0.0/16', employees: 11, services: ['Cajas', 'Plataforma'] },
     { id: 21, name: 'Jalapa', x: 68, y: 58, network: '10.21.0.0/16', employees: 10, services: ['Cajas', 'Plataforma'] },
     { id: 19, name: 'Zacapa', x: 82, y: 35, network: '10.19.0.0/16', employees: 14, services: ['Cajas', 'Plataforma', 'ATM'] },
     { id: 20, name: 'Chiquimula', x: 90, y: 50, network: '10.20.0.0/16', employees: 13, services: ['Cajas', 'Plataforma'] },
-    { id: 18, name: 'Izabal', x: 85, y: 22, network: '10.18.0.0/16', employees: 16, services: ['Cajas', 'Plataforma', 'ATM'] }
+    { id: 18, name: 'Izabal', x: 85, y: 15, network: '10.18.0.0/16', employees: 16, services: ['Cajas', 'Plataforma', 'ATM'] }
   ];
 
   const vlans = [
